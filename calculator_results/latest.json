@@ -1,0 +1,11 @@
+{
+    "principal": 100000,
+    "monthly_roi": 2.5,
+    "days": 100,
+    "daily_less_principle": 1000,
+    "daily_interest": 84,
+    "daily_emi": 1084,
+    "monthly_emi": 32500,
+    "closure_amount": 108334,
+    "timestamp": "2026-04-14T07:00:25.334Z"
+}
