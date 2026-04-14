@@ -7,9 +7,9 @@ app = Flask(__name__)
 CORS(app)  # Allow requests from your frontend (adjust origin in production)
 
 # Configuration – you can also use environment variables
-REPO_NAME = os.environ.get("REPO_NAME", "YOUR_USERNAME/YOUR_REPO_NAME")
+REPO_NAME = os.environ.get("REPO_NAME", "sunilpanwar/calculator_app")
 FILE_PATH = os.environ.get("FILE_PATH", "calculator_results/latest.json")
-BRANCH = os.environ.get("BRANCH", "main")
+BRANCH = os.environ.get("BRANCH", "develop")
 
 @app.route('/save-results', methods=['POST'])
 def save_results():
